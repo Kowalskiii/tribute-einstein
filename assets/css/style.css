@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://media.istockphoto.com/photos/night-starry-skies-with-twinkling-and-blinking-stars-illustration-picture-id1142850772?k=20&m=1142850772&s=170667a&w=0&h=YpKO775iyqTGlnSmGyAieHMXaN524Eo2r9_T6xl8z3E=);
+    color: white;
+    display: grid;
+    place-items:  center;
+    font-family: 'Righteous', cursive;
+
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter:  blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: auto;
+}
+
+.foto {
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.foto img {
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.titulo h1, h2 {
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 40px;
+}
+
+.titulo h2 {
+    display:flex;
+    justify-content:center;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.resumo {
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 20px;
+}
+
+.obras {
+    text-align: center;
+}
+
+.banners {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banners img{
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+footer a {
+    color: white;
+    padding-left: 10px;
+}
+
+footer a:hover {
+    color:  #a7adba;
+}
