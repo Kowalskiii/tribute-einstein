@@ -1,8 +1,8 @@
 body {
     background-image: url(https://media.istockphoto.com/photos/night-starry-skies-with-twinkling-and-blinking-stars-illustration-picture-id1142850772?k=20&m=1142850772&s=170667a&w=0&h=YpKO775iyqTGlnSmGyAieHMXaN524Eo2r9_T6xl8z3E=);
     color: white;
-    display: grid;
-    place-items:  center;
+    display: flex;
+    justify-content:  center;
     font-family: 'Righteous', cursive;
 
 }
